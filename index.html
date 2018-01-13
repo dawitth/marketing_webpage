@@ -1,0 +1,416 @@
+<html>
+    <script src="https://use.fontawesome.com/2a6d14a43e.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover.css"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <div id="navi_background"></div>
+    
+    <div id="nav_header">
+        AA | Marketing</div>
+    <div id="nav_btns">
+        <button class="hvr-underline-from-center" id="home_btn" id="home">Home</button>
+        <div class="dropdown">
+            <button class="hvr-underline-from-center" id="work" class="dropbtn">Work</button>
+            <div class="dropdown-content">
+                <a href="#">Hats On</a>
+                <a href="#">Annabelle</a>
+                <a href="#">Four-by-four</a>
+                
+                <a href="#">Travelwell</a>
+                
+                <a href="#">Spendswift</a>
+            </div>
+        </div>
+        
+        <button class="hvr-underline-from-center" id="abt_btn">About</button>
+        <button class="hvr-underline-from-center" id="service_btn">Service</button>
+        <button class="hvr-underline-from-center" id="blg_btn">Blog</button>
+        <button class="hvr-underline-from-center" id="contact_btn">Contact</button>
+    </div>
+    <h3 id="transform_header">
+        &nbsp;&nbsp; TRANSFORM YOUR DREAMS <br> INTO REAL WORLD CAMPAIGNS</h3>
+    <button id="our_Work_btn">OUR WORK</button>
+    <img src="https://images.unsplash.com/photo-1506701554939-d0aa4c26d79c?auto=format&fit=crop&w=1952&q=80" id="img_background">
+        
+        
+        
+        <div id="content_two">
+            <h3 id="content_two_header"> HELLO, WE ARE AA MARKETING AGENCY</h3>
+            &nbsp;&nbsp; And we’re here to give your dreams color, life, sound, and voice. We are a digital marketing agency that <br> &nbsp;thrives in today’s digital environment. Our designers, writers, and technical professionals work together to<br> create
+            vibrant integrated campaigns that aim to achieve your goals by being outstanding, and by standing out.
+            <button id="about_us_btn">ABOUT US</button>
+            <button id="contact_us_btn">CONTACT US</button>
+            
+        </div>
+        
+        <div id="content_three">
+            <img src="https://images.unsplash.com/photo-1481487196290-c152efe083f5?auto=format&fit=crop&w=2260&q=80" id="content_three_img_one">
+                
+                <img src="https://images.unsplash.com/photo-1481935748467-225fb550a66e?auto=format&fit=crop&w=1917&q=80" id="conent_three_img_two">
+                    <img src="https://images.unsplash.com/photo-1438505296047-83ae9945bf15?auto=format&fit=crop&w=1952&q=80" id="content_three_img_three">
+                        
+                        
+                        <img src="https://images.unsplash.com/photo-1502929254524-5e4f51903baa?auto=format&fit=crop&w=1950&q=80" id="content_three_img_four">
+                            
+                            
+                            
+                            <div id="content_four">
+                                <h3 id="content_four_header"> DIGITAL MARKETING SERVICES</h3>
+                                &nbsp;We know the internet like the back of our iPod, and we provide you with the full gamut of digital marketing services,<br> everything from traffic building and maintaining to social media campaign construction. Of course, we’ll also help
+                                you <br>&nbsp; &nbsp;&nbsp;choose the best channels for spreading your message, to your best audience and within your budget.
+                            </div>
+                            
+                            
+                            
+                            <div id="content_five">
+                                
+                                <button id="lets_work_btn">LET'S WORK TOGETHER! CONTACT US.</button>
+                                
+                                
+                                <div id="contact_header">
+                                    <h3>CONTACT US</h3><br> Address: Street Address<br> City, State and Zip<br> example@gmail.com
+                                    
+                                </div>
+                                
+                                <div id="lets_connect">
+                                    <h3>LET’S CONNECT</h3><br>
+                                    <i aria-hidden="true" class="fa fa-facebook fa-1x "></i>
+                                    <i aria-hidden="true" class="fa fa-twitter fa-1x "></i>
+                                    <i aria-hidden="true" class="fa fa-google-plus fa-1x "></i>
+                                </div>
+                                <div id="sign_up">
+                                    <h3>SIGN UP FOR OUR<br>&nbsp; &nbsp; NEWSLETTER</h3>
+                                    <input placeholder="EMAIL" id="email_input"><br>
+                                        <button id="subscribe_btn">SUBSCRIBE</button>
+                                        </div>    
+    
+    
+    
+</html>
+
+<style>
+   
+   .hvr-underline-from-center {
+       display: inline-block;
+       vertical-align: middle;
+       -webkit-transform: perspective(1px) translateZ(0);
+       transform: perspective(1px) translateZ(0);
+       box-shadow: 0 0 1px transparent;
+       position: relative;
+       overflow: hidden;
+   }
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #2098D1;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+button{
+    width:80px;
+    height:40px;
+    font-size:20px;
+    background-color:transparent;
+    color:#42cbf4;
+    border-color:transparent;
+}
+button:focus {
+    outline:0;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #42cbf4}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+
+#nav_btns{
+    position: fixed;
+    left:700px;
+    z-index: 1;
+    
+}
+
+#nav_header{
+    position:fixed;
+    left: 250px;
+    color: #42cbf4;
+    font-size: 30px;
+    top:15px;
+    z-index: 1;
+    
+}
+
+#navi_background{
+    position:absolute;
+    left:0px;
+    width:100%;
+    height: 70px;
+    top:0px;
+    position: fixed;
+    background-color:white;
+    z-index: 1;
+}
+
+#our_Work_btn{
+    width:150px;
+    background-color: #42cbf4;
+    color: white;
+    position: absolute;
+    left:600px;
+    top: 500px;
+    z-index: 0;
+    
+}
+
+#img_background{
+    position:absolute;
+    width: 100%;
+    margin:0px;
+    left:0px;
+    z-index: -1;
+    filter: grayscale(100%);
+    
+}
+
+#transform_header{
+    position:absolute;
+    top: 300px;
+    color:white;
+    font-size:40px;
+    left:370px;
+}
+
+
+#content_two{
+    position: absolute;
+    color: #697487;
+    left:300px;
+    top: 1100px;
+    font-size: 20px;
+}
+
+#content_two_header{
+    position: absolute;
+    color: #42cbf4;
+    left: 150px;
+    top: -80px;
+    font-size: 25px;
+    
+}
+#about_us_btn{
+    position: absolute;
+    top: 100px;
+    left: 270px;
+    width: 150px;
+    border-color: black;
+    color: #697487;
+}
+
+
+#contact_us_btn{
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    width: 150px;
+    background-color: #697487;
+    border-color: #697487;
+    color: white;
+}
+
+#contact_us_btn:hover{
+    background-color: white;
+    color: #697487;
+}
+
+#about_us_btn:hover{
+    background-color:  #697487;
+    color: white;
+}
+
+
+#content_three_img_one{
+    position:absolute;
+    width:50%;
+    top: 1300px;
+    left:0px;
+}
+
+#conent_three_img_two{
+    position: absolute;
+    top: 1300px;
+    width: 50%;
+    left: 50%;
+    height:434px;
+}
+#content_three_img_three{
+    position:absolute;
+    width:50%;
+    top: 1734px;
+    left:0px;
+}
+
+#content_three_img_four{
+    position: absolute;
+    top: 1734px;
+    width: 50%;
+    left: 50%;
+    height:479px;
+}
+
+
+#content_four_header{
+    position: absolute;
+    color: #42cbf4;
+    left: 290px;
+    top: -100px;
+    font-size: 25px;
+}
+
+
+#content_five{
+    background-color: #353a42;
+    width:33%;
+    height:400px;
+    color:white;
+}
+
+
+#content_four{
+    position: absolute;
+    color: #697487;
+    left:240px;
+    top: 2350px;
+    font-size: 20px;
+    
+}
+
+#read_btn{
+    position:absolute;
+    top:250px;
+    left:100px;
+    width: 150px;
+    background-color: #697487;
+    border-color: #697487;
+    color: white;
+}
+
+#content_five{
+    position: absolute;
+    top: 2500px;
+    font-size:20px;
+    width:100%;
+    left:0px;
+}
+
+
+
+#lets_work_btn{
+    position: absolute;
+    left:420px;
+    top:60px;
+    height:50px;
+    background-color:transparent;
+    width: 600px;
+    border-color: white;
+    color: white;
+    font-size:30px;
+    
+}
+
+#lets_work_btn:hover{
+    background-color:transparent;
+    width: 600px;
+    border-color: #43cbf4;
+    color: #42cbf4;
+}
+
+#subscribe_btn{
+    background-color:  #42cbf4;
+    color: white;
+    width:140px;
+    margin:10px;
+}
+
+#contact_header{
+    position:absolute;
+    top: 200px;
+    left:240px;
+}
+
+#lets_connect{
+    position:absolute;
+    top: 200px;
+    left:640px;
+}
+
+#sign_up{
+    position:absolute;
+    top: 200px;
+    left:1040px;
+}
+
+#email_input{
+    background-color:transparent;
+    width:200px;
+    height:30px;
+}
+
+::placeholder{
+    color: #62769e;
+    font-size:20px;
+}
+
+.fa{
+    margin-left:30px;
+}
+
+</style>
+    
+    
+<script>
+        
+    
+    
+</script>
