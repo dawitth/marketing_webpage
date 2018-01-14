@@ -1,9 +1,10 @@
 <html>
+<head>
     <script src="https://use.fontawesome.com/2a6d14a43e.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover.css"></script>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
+</head>
     <div id="navi_background"></div>
     
     <div id="nav_header">
@@ -83,9 +84,7 @@
                                     <h3>SIGN UP FOR OUR<br>&nbsp; &nbsp; NEWSLETTER</h3>
                                     <input placeholder="EMAIL" id="email_input"><br>
                                         <button id="subscribe_btn">SUBSCRIBE</button>
-                                        </div>    
-    
-    
+                                        </div>
     
 </html>
 
@@ -120,6 +119,45 @@
     left: 0;
     right: 0;
 }
+
+
+
+#home_btn,#abt_btn,#service_btn,#blg_btn,#contact_btn {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    overflow: hidden;
+}
+#home_btn:before,#abt_btn:before,#service_btn:before,#blg_btn:before,#contact_btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #2098D1;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+#home_btn:hover:before, #home_btn:focus:before, #home_btn:active:before,
+#abt_btn:hover:before, #abt_btn:focus:before, #abt_btn:active:before,
+#service_btn:hover:before, #service_btn:focus:before, #service_btn:active:before, #blg_btn:hover:before, #blg_btn:focus:before, #blg_btn:active:before ,
+#contact_btn :hover:before, #contact_btn:focus:before, #contact_btn:active:before {
+    left: 0;
+    right: 0;
+}
+
+
+
+
 
 button{
     width:80px;
@@ -166,6 +204,7 @@ button:focus {
 
 
 #nav_btns{
+    width:900px;
     position: fixed;
     left:700px;
     z-index: 1;
@@ -211,6 +250,7 @@ button:focus {
     left:0px;
     z-index: -1;
     filter: grayscale(100%);
+    height:950px;
     
 }
 
@@ -220,6 +260,7 @@ button:focus {
     color:white;
     font-size:40px;
     left:370px;
+    width:700px;
 }
 
 
@@ -229,6 +270,9 @@ button:focus {
     left:300px;
     top: 1100px;
     font-size: 20px;
+    width:100%;
+    height:100px;
+ 
 }
 
 #content_two_header{
@@ -275,6 +319,7 @@ button:focus {
     width:50%;
     top: 1300px;
     left:0px;
+    height:434px;
 }
 
 #conent_three_img_two{
@@ -289,6 +334,7 @@ button:focus {
     width:50%;
     top: 1734px;
     left:0px;
+    height:479px;
 }
 
 #content_three_img_four{
@@ -306,6 +352,7 @@ button:focus {
     left: 290px;
     top: -100px;
     font-size: 25px;
+    
 }
 
 
@@ -323,6 +370,8 @@ button:focus {
     left:240px;
     top: 2350px;
     font-size: 20px;
+    width:100%;
+    height:100px;
     
 }
 
@@ -411,6 +460,6 @@ button:focus {
     
 <script>
         
-    
+   //https://www.duda.co/preview?site=/site/dm-theme-1005710-en-326?preview=true&themeId=1005710&manifestId=-1
     
 </script>
